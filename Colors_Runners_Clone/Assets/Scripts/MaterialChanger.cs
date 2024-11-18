@@ -6,14 +6,15 @@ public class MaterialChanger : MonoBehaviour
 {
     [SerializeField] private Material[] materials;
 
-    private Renderer objectRenderer;
+    public SkinnedMeshRenderer objectRenderer;
+
     public int currentMaterialIndex;
 
     private void Start()
     {
         currentMaterialIndex = 0;
-        objectRenderer = GetComponent<Renderer>();
-
+      //  objectRenderer = GetComponent<SkinnedMeshRenderer>();
+       
         if (materials.Length > 0)
         {
             objectRenderer.material = materials[currentMaterialIndex];
@@ -22,25 +23,22 @@ public class MaterialChanger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Gate1"))
+        switch (other.tag)
         {
-            if (currentMaterialIndex == 0)
+            case "Red":
                 ChangeMaterial(1);
-        }
-        else if (other.CompareTag("Gate2"))
-        {
-            if (currentMaterialIndex == 1)
+                break;
+            case "Orange":
                 ChangeMaterial(2);
-        }
-        else if (other.CompareTag("Gate3"))
-        {
-            if (currentMaterialIndex == 2)
+                break;
+            case "Blue":
                 ChangeMaterial(3);
-        }
-        else if (other.CompareTag("Gate4"))
-        {
-            if (currentMaterialIndex == 3)
+                break;
+            case "Green":
                 ChangeMaterial(4);
+                break;
+            default:
+                break;
         }
     }
 
@@ -49,6 +47,7 @@ public class MaterialChanger : MonoBehaviour
         if (materialIndex >= 0 && materialIndex < materials.Length)
         {
             objectRenderer.material = materials[materialIndex];
+            
             currentMaterialIndex = materialIndex;
         }
     }

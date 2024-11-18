@@ -11,6 +11,11 @@ TagManager:
   - Gate3
   - Gate4
   - Obstacle
+  - Red
+  - Blue
+  - Green
+  - Yellow
+  - Orange
   layers:
   - Default
   - TransparentFX
