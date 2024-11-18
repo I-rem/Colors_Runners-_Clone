@@ -1,0 +1,4 @@
+#Mon Nov 18 14:54:08 EET 2024
+base.0=S\:\\Unity\\Swords_Maker_Clone\\Swrds_Maker_Clone\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
