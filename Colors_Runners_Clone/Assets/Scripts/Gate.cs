@@ -63,7 +63,8 @@ public class Gate : MonoBehaviour
         else if (other.CompareTag("Player"))
         {
             Destroy(other.gameObject);
-            levelManager.FinishLevel();
+            //levelManager.FinishLevel();
+            levelManager.LoadNextScene();
         }
             
 
