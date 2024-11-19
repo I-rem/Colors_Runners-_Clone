@@ -42,7 +42,7 @@ public class LevelManager : MonoBehaviour
 
     }
 
-    void Restart()
+    public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

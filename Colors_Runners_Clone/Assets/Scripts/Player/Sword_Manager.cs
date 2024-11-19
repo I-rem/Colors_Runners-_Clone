@@ -8,10 +8,17 @@ public class Sword_Manager : MonoBehaviour
     public GameObject handle; 
     public List<GameObject> swordParts = new List<GameObject>(); 
     public float bladeDistance = 2.0f; 
-
+    public int humanCount = 1;
+    Transform myTransform;
+    
     private void Start()
     {
         swordParts.Add(handle);
+        myTransform = transform;
+        for (int i = humanCount; i > 1; i--)
+        {
+            AddBlade(myTransform.position);
+        }
     }
 
     /*private void OnTriggerEnter(Collider other)
