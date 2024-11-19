@@ -8,7 +8,8 @@ public class Blade : MonoBehaviour
     Sword_Manager swordManager;
     Collider myCollider;
     Transform myTransform;
-
+    MaterialChanger materialChanger1;
+    MaterialChanger materialChanger2;
     private void Start()
     {
        swordManager = Sword.GetComponent<Sword_Manager>();
@@ -20,11 +21,14 @@ public class Blade : MonoBehaviour
     {  
         if (other.CompareTag("Player") || other.CompareTag("SwordBlade"))
         {
+            materialChanger1 = other.GetComponent<MaterialChanger>();
+            materialChanger2 = gameObject.GetComponent<MaterialChanger>();
             //Physics.IgnoreCollision(myCollider, other);
-                if (gameObject.CompareTag("Blade"))
+                if (gameObject.CompareTag("Blade") && materialChanger1.correct_color == materialChanger2.correct_color)
                 {
-                    Destroy(gameObject);
                     swordManager.AddBlade(myTransform.position); 
+                    Destroy(gameObject);
+                    
                 }
         }
         if (other.CompareTag("Obstacle") && gameObject.CompareTag("SwordBlade"))

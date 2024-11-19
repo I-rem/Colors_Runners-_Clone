@@ -10,7 +10,7 @@ public class MaterialChanger : MonoBehaviour
 
     public int currentMaterialIndex = 0;
     
-    int correct_color = 0;
+    public int correct_color = 0;
 
     private void Start()
     {
