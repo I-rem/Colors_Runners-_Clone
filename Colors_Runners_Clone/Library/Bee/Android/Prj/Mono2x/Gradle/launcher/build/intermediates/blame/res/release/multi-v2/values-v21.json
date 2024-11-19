@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "S:\\Unity\\Swords_Maker_Clone\\Swrds_Maker_Clone\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "S:\\Unity\\Colors_Runners_Clone\\Colors_Runners_Clone\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "S:\\Unity\\Swords_Maker_Clone\\Swrds_Maker_Clone\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "S:\\Unity\\Colors_Runners_Clone\\Colors_Runners_Clone\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "0",

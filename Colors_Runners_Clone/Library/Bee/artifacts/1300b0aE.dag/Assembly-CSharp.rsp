@@ -361,6 +361,7 @@
 "Assets/Scripts/Menu/OptionsMenuScript.cs"
 "Assets/Scripts/Menu/Sound.cs"
 "Assets/Scripts/Menu/UIScript.cs"
+"Assets/Scripts/MovingObstacle.cs"
 "Assets/Scripts/Obstacle.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
 "Assets/Scripts/Player/PlayerShooting.cs"
