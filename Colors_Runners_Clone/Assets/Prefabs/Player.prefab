@@ -96,6 +96,7 @@ MonoBehaviour:
   handle: {fileID: 1719357260355158638}
   swordParts: []
   bladeDistance: 2
+  humanCount: 1
 --- !u!114 &502337968944007917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,8 +164,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.7665458, y: 0.17258811, z: 0.2992859}
-  m_Center: {x: 0.031525612, y: 1.1622266, z: -0.021737099}
+  m_Size: {x: 1.3359513, y: 0.13638878, z: 0.22649145}
+  m_Center: {x: -0.026863813, y: 0.98, z: -0.0033032894}
 --- !u!114 &1166450823734268780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,8 +197,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.58599913, y: 1.5118315, z: 0.48064327}
-  m_Center: {x: -0.0140967965, y: 1.0050122, z: -0.023879528}
+  m_Size: {x: 0.58599913, y: 1.3767761, z: 0.3461671}
+  m_Center: {x: -0.0140967965, y: 0.7561968, z: 0.043358564}
 --- !u!1 &1802419188135738626
 GameObject:
   m_ObjectHideFlags: 0

@@ -61,6 +61,8 @@ public class LevelManager : MonoBehaviour
             Time.timeScale = 1.0f;
             StartCoroutine(FadeIn());
         }
+        //if (!player)
+            //Restart();
     }
 
     public IEnumerator FadeIn()

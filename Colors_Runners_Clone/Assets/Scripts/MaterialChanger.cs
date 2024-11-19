@@ -9,7 +9,7 @@ public class MaterialChanger : MonoBehaviour
     public SkinnedMeshRenderer objectRenderer;
 
     public int currentMaterialIndex = 0;
-
+    
     int correct_color = 0;
 
     private void Start()
@@ -19,6 +19,7 @@ public class MaterialChanger : MonoBehaviour
        
         if (materials.Length > 0)
         {
+             
             objectRenderer.material = materials[currentMaterialIndex];
         }
     }
@@ -28,7 +29,8 @@ public class MaterialChanger : MonoBehaviour
         switch (other.tag)
         {
             case "Gate":
-                Set_Correct_Color(other);
+                Transform childTransform = other.transform.GetChild(0);
+                Set_Correct_Color(childTransform.gameObject);
                 break;
             case "Red":
                 ChangeMaterial(1);
@@ -47,7 +49,7 @@ public class MaterialChanger : MonoBehaviour
         }
     }
 
-    private void Set_Correct_Color(Collider gate)
+    private void Set_Correct_Color(GameObject gate)
     {
         switch (gate.tag)
         {
@@ -68,6 +70,7 @@ public class MaterialChanger : MonoBehaviour
         }
     }
 
+    
     private void ChangeMaterial(int materialIndex)
     {
         if (materialIndex >= 0 && materialIndex < materials.Length)
@@ -75,11 +78,13 @@ public class MaterialChanger : MonoBehaviour
             if (materialIndex == correct_color)
             {
                 objectRenderer.material = materials[materialIndex];
+                //objectRenderer.material = new Material(materials[materialIndex]);
                 currentMaterialIndex = materialIndex;
             }
             else
             {
-                Destroy(this.gameObject);
+                if (!this.gameObject.CompareTag("Player"))
+                    Destroy(this.gameObject);
             }
             
         }
