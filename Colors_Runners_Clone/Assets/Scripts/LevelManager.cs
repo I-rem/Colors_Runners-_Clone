@@ -4,8 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+
+
 public class LevelManager : MonoBehaviour
 {
+    public int last_level = 5;
     public float bossHealth = 100f;
     public int money = 0;
     public float time = 2f;
@@ -51,7 +54,10 @@ public class LevelManager : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         fadein = false;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (SceneManager.GetActiveScene().buildIndex == last_level)
+            SceneManager.LoadScene(0);
+        else
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     void Update()

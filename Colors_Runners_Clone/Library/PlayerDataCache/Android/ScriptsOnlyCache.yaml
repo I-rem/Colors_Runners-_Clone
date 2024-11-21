@@ -155,57 +155,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: LevelManager
     methodName: Restart
-  - assembly: Assembly-CSharp
-    fullTypeName: AudioManager
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: AudioManager
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: UIScript
-    methodName: ExitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: AudioManager
-    methodName: Play
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: AudioManager
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: AudioManager
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: AudioManager
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: UIScript
-    methodName: LoadNextScene
-  - assembly: Assembly-CSharp
-    fullTypeName: AudioSlider
-    methodName: OnChangeSlider
-  - assembly: Assembly-CSharp
-    fullTypeName: OptionsMenuScript
-    methodName: SetQuality
-  - assembly: Assembly-CSharp
-    fullTypeName: OptionsMenuScript
-    methodName: SetFullscreen
-  - assembly: Assembly-CSharp
-    fullTypeName: AudioManager
-    methodName: Play
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: AudioManager
-    methodName: Play
   sceneClasses:
     Assets/Scenes/Level 1.unity:
     - Class: 1
@@ -695,85 +644,6 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/MainMenuScene 1.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1542}
-    - Class: 114
-      Script: {instanceID: 1544}
-    - Class: 114
-      Script: {instanceID: 2608}
-    - Class: 114
-      Script: {instanceID: 2620}
-    - Class: 114
-      Script: {instanceID: 3118}
-    - Class: 114
-      Script: {instanceID: 3916}
-    - Class: 114
-      Script: {instanceID: 5030}
-    - Class: 114
-      Script: {instanceID: 5082}
-    - Class: 114
-      Script: {instanceID: 5172}
-    - Class: 114
-      Script: {instanceID: 5264}
-    - Class: 114
-      Script: {instanceID: 5770}
-    - Class: 114
-      Script: {instanceID: 5928}
-    - Class: 114
-      Script: {instanceID: 6258}
-    - Class: 114
-      Script: {instanceID: 6270}
-    - Class: 114
-      Script: {instanceID: 6372}
-    - Class: 114
-      Script: {instanceID: 6506}
-    - Class: 114
-      Script: {instanceID: 7026}
-    - Class: 114
-      Script: {instanceID: 7106}
-    - Class: 114
-      Script: {instanceID: 7376}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    - Class: 241
-      Script: {instanceID: 0}
-    - Class: 243
-      Script: {instanceID: 0}
-    - Class: 245
       Script: {instanceID: 0}
     Assets/Scenes/MainMenuScene.unity:
     - Class: 1
@@ -1371,12 +1241,6 @@ ScriptsOnlyBuild:
     className: TMPro_InstructionOverlay
   - hash:
       serializedVersion: 2
-      Hash: 65778b739d5a67567765dde87acfa9d8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerShooting
-  - hash:
-      serializedVersion: 2
       Hash: e244702e0dc05782229aa524e4d757f5
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -1597,12 +1461,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
-  - hash:
-      serializedVersion: 2
-      Hash: 58e68364412c67eae2bdb4954be2dcc2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Readme
   - hash:
       serializedVersion: 2
       Hash: 760787567e1b60d64a3e421ab83ee14a
@@ -1857,7 +1715,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: b981adabe2c5e8ce36f04fdd668839b4
+      Hash: de2348dd27863fbd1717583ebce6ea8e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LevelManager
@@ -1971,5 +1829,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level 3.unity
   - Assets/Scenes/Level 4.unity
   - Assets/Scenes/Level 5.unity
-  - Assets/Scenes/MainMenuScene 1.unity
-  playerPath: S:/Unity/Colors_Runners_Clone/test1.apk
+  playerPath: S:/Unity/Colors_Runners_Clone/IremAyse-Kayacioglu.apk

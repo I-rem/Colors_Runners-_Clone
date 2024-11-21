@@ -364,7 +364,6 @@
 "Assets/Scripts/MovingObstacle.cs"
 "Assets/Scripts/Obstacle.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
-"Assets/Scripts/Player/PlayerShooting.cs"
 "Assets/Scripts/Player/Sword_Manager.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
@@ -400,7 +399,6 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
-"Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
 /deterministic
